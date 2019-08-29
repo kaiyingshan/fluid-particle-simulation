@@ -126,7 +126,7 @@ function viscosityForce(a) {
 }
 
 function init(){
-    setInterval(callback, 20);
+    setInterval(callback, 10);
 }
 let time = 0;
 
@@ -134,7 +134,7 @@ let number = 0;
 let counter = 0;
 
 function callback() {
-    if (number < 250 && counter % Math.floor(1000 / (1 + balls.length)) === 0) {
+    if (number < 250 && counter % Math.floor(500 / (1 + balls.length)) === 0) {
         balls.push(new Ball());
         number++;
         counter = 0;
