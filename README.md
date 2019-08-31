@@ -1,5 +1,5 @@
 # fluid-particle-simulation
-
+This project is derived from [this repository](https://github.com/kaiyingshan/fluid-particle-cake).
 <table>
 <tr>
 Table shows the stability of the particles increases by time
